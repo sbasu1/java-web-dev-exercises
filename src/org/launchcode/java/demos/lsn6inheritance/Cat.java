@@ -5,6 +5,15 @@ public class Cat {
     private boolean tired = false;
     private boolean hungry = false;
     private double weight;
+    private String catProp;
+
+    public String getCatProp() {
+        return catProp;
+    }
+
+    public void setCatProp(String catProp) {
+        this.catProp = catProp;
+    }
 
     // The biological family for all cat species
     private String family = "Felidae";
