@@ -12,7 +12,7 @@ public class Computer extends AbstractEntity{
     }
 
     public int getRamSize() {
-        return ramSize;
+        return this.ramSize;
     }
 
     public void setRamSize(int ramSize) {
